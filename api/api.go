@@ -1,9 +1,13 @@
-package main
+package api
 
 import (
     "fmt"
 )
 
+func JohnDoe() string {
+    return "John Doe"
+}
+
 func main() {
-    fmt.Println("Hello, api!")
+    fmt.Println("Hello, " + JohnDoe() + "!")
 }
